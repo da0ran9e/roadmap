@@ -26,5 +26,20 @@ JSX stands for JavaScript XML. It allows writing HTML in JavaScript and converts
 - [JSX in React on w3school](https://www.w3schools.com/react/react_jsx.asp)
 ### Props vs State
 Props (short for “properties”) and state are both plain JavaScript objects. While both hold information that influences the output of component render, they are different in one important way: props get passed to the component (similar to function parameters) whereas state is managed within the component (similar to variables declared within a function).
+- [State: A Component’s Memory](https://react.dev/learn/state-a-components-memory)
+- [How to use Props in React](https://www.robinwieruch.de/react-pass-props-to-component/)
+- [What is the difference between state and props in React?](https://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react)
+- [How to update state from props in React](https://www.robinwieruch.de/react-derive-state-props/)
 ### Conditional Rendering 
+In React, you can create distinct components that encapsulate behavior you need. Then, you can render only some of them, depending on the state of your application. < /br>
+
+Conditional rendering in React works the same way conditions work in JavaScript. Use JavaScript operators like [if](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) or the [conditional operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) to create elements representing the current state, and let React update the UI to match them.
+- [Conditional Rendering](https://react.dev/learn/conditional-rendering)
+- [Different techniques for conditional rendering in React](https://www.robinwieruch.de/conditional-rendering-react/)
 ### Composition
+React has a powerful composition model, and it is recommended to use composition instead of inheritance to reuse code between components.
+
+- [Composition vs Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html)
+- [How to perform component composition in React](https://www.robinwieruch.de/react-component-composition/)
+- [Achieving Reusability With React Composition](https://formidable.com/blog/2021/react-composition/)
+- [Passing JSX as children](https://react.dev/learn/passing-props-to-a-component#passing-jsx-as-children)
