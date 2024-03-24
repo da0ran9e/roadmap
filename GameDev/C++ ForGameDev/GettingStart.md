@@ -145,26 +145,26 @@ retrieved struct(OOP)
 - Reference parameter
 - Constant parameter
 - Const Reference parameter
-- Pointer parameter
+- Pointer parameter<br />
 ***Value parameter***
 - Pass-by-value
 - A copy of parameter is made <br />
-![alt text](image-38.png)
-* **Reference parameter**
+![alt text](image-38.png)<br />
+***Reference parameter***
 - Pass-by-reference
 - Actually parameter itself is passed
 - Use reference operator “&” <br />
-![alt text](image-39.png)
-*** Constant parameter**
+![alt text](image-39.png)<br />
+***Constant parameter***
 - Pass-by-value
 - A copy of parameter is made and strict as const. <br />
-![alt text](image-40.png)
-*** Const Reference parameter**
+![alt text](image-40.png)<br />
+***Const Reference parameter***
 - Pass-by-ref
 - Actually parameter itself is passed but avoid modify
 - Avoid the overhead of creating a copy<br />
-![alt text](image-41.png)
-*** Pointer parameter**
+![alt text](image-41.png)<br />
+***Pointer parameter***
 - In common, Pass-by-value
 - A copy of parameter is made <br />
 Value of parameter is an address of a memory block <br />
